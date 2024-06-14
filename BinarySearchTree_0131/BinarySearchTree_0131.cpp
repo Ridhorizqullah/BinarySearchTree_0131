@@ -76,3 +76,12 @@ void search(string element, Node*& parent, Node*& currentNode) {  // Locate the 
             inorder(ptr->rightchild); // right
         }
     }
+
+    void preorder(Node* ptr) 
+    {
+        if (ROOT == NULL) {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+        
+    }
