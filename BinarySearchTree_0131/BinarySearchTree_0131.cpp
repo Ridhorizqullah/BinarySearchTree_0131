@@ -14,3 +14,14 @@ public:
         rightchild = r;
     }
 };
+
+//BinaryTree Class
+class BinaryTree {
+public:
+    Node* ROOT;
+    BinaryTree() {
+        ROOT = nullptr;  //  ROOT to null
+    }
+};
+
+
