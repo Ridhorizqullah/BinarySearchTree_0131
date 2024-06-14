@@ -33,3 +33,5 @@ void insert(string element) { // Insert a Node in a Binary Search Tree
     Node* parent = nullptr;
     Node* currentNode = nullptr;
 
+    search(element, parent, currentNode);
+
