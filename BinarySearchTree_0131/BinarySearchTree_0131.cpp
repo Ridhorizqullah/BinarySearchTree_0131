@@ -64,3 +64,15 @@ void search(string element, Node*& parent, Node*& currentNode) {  // Locate the 
         }
     }
 
+    void inorder(Node * ptr) // function to perform inorder traversal
+    {
+        if (ROOT == NULL) {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+        if (ptr != NULL) {
+            inorder(ptr->leftchild); // left
+            cout << ptr->info << " "; // root
+            inorder(ptr->rightchild); // right
+        }
+    }
